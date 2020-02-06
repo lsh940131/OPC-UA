@@ -90,7 +90,7 @@ sudo influx
 	CREATE USER user WITH PASSWORD 'password'
 	CREATE DATABASE OPC_UA_Data_table
 	USE OPC_UA_Data_table
-	INSERT temperature,where=office value=5 (This is insert data to table also the task of creating a schema with a table)
+	INSERT temperature,where=office value=5 (This is inserting data into the table and creating the schema at the same time.)
 	GRANT ALL ON "OPC_UA_Data_table" to "user"
 	exit
 ```
